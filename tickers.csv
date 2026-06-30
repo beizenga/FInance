@@ -1,0 +1,6 @@
+Ticker,CompanyName, Issue, Market,Currency, AssetClass
+BMO,Bank of Montreal,Common Shares,.TO,CAD,Equities
+BMO,Bank of Montreal,Common Shares,,USD,Equities
+CCO, Cameco Corporation, Common Shares,.TO,CAD,Equities
+DOL,Dolllorama Inc,Common Shares,.TO,CAD,Equities
+LRCX, LAM Research Corporation, Common Shares,,USD, Equities
