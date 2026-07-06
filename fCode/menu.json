@@ -1,0 +1,33 @@
+{
+  "menus": [
+    {
+      "label": "File",
+      "items": [
+        {"label": "Open Tickers CSV", "action": "open_path", "args": {"setting_key": "tickers_csv"}},
+        {"label": "Open Pattern Workbook", "action": "open_path", "args": {"setting_key": "pattern_workbook"}},
+        {"type": "separator"},
+        {"label": "Exit", "action": "exit_app"}
+      ]
+    },
+    {
+      "label": "Analysis",
+      "items": [
+        {"label": "Run Ticker Summary", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
+        {"label": "Run EW Pattern Matcher", "action": "run_script", "args": {"setting_key": "ew_matcher_script"}},
+        {
+          "label": "Reports",
+          "items": [
+            {"label": "Open Output Folder", "action": "open_path", "args": {"setting_key": "output_dir"}},
+            {"label": "Latest PDF Report", "action": "open_path", "args": {"setting_key": "latest_report"}}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Help",
+      "items": [
+        {"label": "About", "action": "show_about"}
+      ]
+    }
+  ]
+}

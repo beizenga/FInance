@@ -1,0 +1,12 @@
+key,value
+app_title,Finance Toolkit
+window_width,900
+window_height,600
+menu_file,menu.json
+tickers_csv,C:\Dev\Python\Finance\tickers.csv
+pattern_workbook,C:\Dev\Python\Finance\elliott-wave-patterns.xlsx
+ticker_summary_script,C:\Dev\Python\Finance\ticker_summary.py
+ew_matcher_script,C:\Dev\Python\Finance\ew_pattern_matcher.py
+output_dir,C:\Dev\Python\Finance\output
+latest_report,C:\Dev\Python\Finance\output\ew_report.pdf
+python_exe,python
