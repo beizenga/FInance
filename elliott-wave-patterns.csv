@@ -1,0 +1,52 @@
+id,pattern_name,short_name,type,wave_structure,direction,wave_point_labels,start,pt1,pt2,pt3,pt4,pt5,net_move,fibonacci_relationships
+1,Classic Impulse,IMP,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,261.8,+161.8,W3=161.8% of W1; W4 retraces 38.2% of W3; W5?W1; W4 cannot overlap W1
+2,Extended Wave 1 Impulse,IMP-EXT1,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,200.0,150.0,211.8,188.2,226.4,+126.4,W1 longest wave; W3=61.8% W1; W5=38.2% W1; W2 retraces 50% of W1
+3,Extended Wave 3 Impulse,IMP-EXT3,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,300.0,261.8,323.6,+223.6,W3=261.8% of W1 (most common); W4 stays above W1 top (161.8); W5=W1
+4,Extended Wave 5 Impulse,IMP-EXT5,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,361.8,+261.8,W5=261.8% of W1; parabolic exhaustion move; W5 longest; rare
+5,Leading Diagonal (Contracting),LD-CON,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,175.0,130.0,200.0,155.0,215.0,+115.0,Wave 1 or A position only; W4 overlaps W1 territory (below 175); converging wedge
+6,Ending Diagonal (Contracting),ED-CON,Motive,3-3-3-3-3,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,172.0,128.0,195.0,150.0,210.0,+110.0,Wave 5 or C position; all subwaves are zigzags; converging wedge; thrust follows
+7,Ending Diagonal (Expanding),ED-EXP,Motive,3-3-3-3-3,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,150.0,118.0,170.0,130.0,190.0,+90.0,Rare; each wave longer than prior; expanding wedge; wave 5 or C position
+8,Zigzag,ZZ,Corrective,5-3-5,Bearish,Start / A / B / C,100.0,61.8,85.4,47.2,—,—,-52.8,Sharp correction; A=5 waves down; B retraces ?61.8% of A; C?A; C=A or 161.8%×A
+9,Double Zigzag,DZZ,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,83.5,50.5,—,—,-49.5,W and Y are zigzags; X retraces 38.2-61.8% of W; deeper than single zigzag
+10,Triple Zigzag,TZZ,Corrective,ZZ-X-ZZ-X-ZZ,Bearish,Start / W / X1 / Y / X2 / Z,100.0,72.0,88.8,60.8,74.8,46.8,-53.2,Three zigzags linked by two X waves; extremely rare; very deep decline
+11,Regular Flat,R-FLAT,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,99.0,74.1,—,—,-25.9,B retraces 90-100% of A (near start); C = 100-138.2% of A; sideways-down
+12,Expanded Flat,EXP-FLAT,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,80.0,120.0,61.8,—,—,-38.2,B exceeds A start (>100%); C extends beyond A end; most common flat variant
+13,Running Flat,RUN-FLAT,Corrective,3-3-5,Bullish,Start / A / B / C,100.0,85.0,130.0,99.0,—,—,-1.0,B extremely strong (>200% of A); C fails to reach A low; rare; bullish signal
+14,Contracting Triangle,CT,Corrective,3-3-3-3-3,Neutral,Start / A / B / C / D / E,100.0,76.4,91.0,82.0,87.6,84.1,-15.9,Each wave ?61.8% of prior; converging trendlines; thrust = widest point of triangle
+15,Expanding Triangle,ET,Corrective,3-3-3-3-3,Neutral,Start / A / B / C / D / E,100.0,80.0,108.0,76.0,112.0,72.0,-28.0,Each wave larger than prior; expanding channel; rare; typically wave B of flat
+16,Running Triangle,RT,Corrective,3-3-3-3-3,Bullish,Start / A / B / C / D / E,100.0,80.0,112.0,92.0,108.0,95.0,-5.0,B exceeds starting level (>100); bullish bias; triangle converges above origin
+17,Double Three (Combination),D3,Corrective,3-3-3,Bearish,Start / W / X / Y,100.0,80.0,94.0,68.0,—,—,-32.0,W and Y are any two simple corrections; X links them; complex sideways move
+18,Triple Three (Combination),T3,Corrective,3-3-3-3-3,Bearish,Start / W / X1 / Y / X2 / Z,100.0,82.0,93.0,76.0,85.0,67.0,-33.0,Three corrections linked by two X waves; very rare; prolonged sideways decline
+19,Impulse – Shallow Wave 4 (23.6%),IMP-W4-236,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,214.6,276.4,+176.4,W4 retraces 23.6% of W3 (shallow); typical alongside strong W3; W2=38.2%; W3=161.8% of W1; W5=W1 [Retracement 23.6%]
+20,Impulse – Standard 38.2% Retraces,IMP-382,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,261.8,+161.8,W2=38.2% of W1 and W4=38.2% of W3; most common W4 retrace; canonical form of Classic Impulse (#1) [Retracement 38.2%]
+21,Impulse – 50% Wave 2 Retrace,IMP-W2-50,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,130.9,230.9,192.7,254.5,+154.5,"W2 retraces 50% of W1 (widely watched, not strict Fibonacci); W3=161.8% of W1; W4=38.2% of W3; W5=W1 [Retracement 50.0%]"
+22,Impulse – Golden 61.8% Wave 2,IMP-W2-618,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,123.6,223.6,185.4,247.2,+147.2,W2 retraces 61.8% of W1 (golden ratio; most common W2); also B-wave ceiling in zigzag; W3=161.8% of W1; W5=W1 [Retracement 61.8%]
+23,Impulse – Deep 78.6% Wave 2,IMP-W2-786,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,113.2,213.2,175.0,236.8,+136.8,W2 retraces 78.6% of W1 (=sqrt(0.618)); deep retrace common in diagonal-prone markets; W3=161.8% of W1; W5=W1 [Retracement 78.6%]
+24,Impulse – Very Deep 88.6% Wave 2,IMP-W2-886,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,107.0,207.0,168.8,230.6,+130.6,W2 retraces 88.6% of W1 – deepest valid W2 (near but not equal to 100%); W3=161.8% of W1; W5=W1 [Retracement 88.6%]
+25,Regular Flat – Full 100% B Retrace,R-FLAT-100B,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,100.0,75.1,—,—,-24.9,B retraces 100% of A back to the start; C=138.2% of A; textbook end-of-flat B target [Retracement 100.0%]
+26,Expanded Flat – 123.6% B Wave,EXP-FLAT-124,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,104.2,75.1,—,—,-24.9,"B=123.6% of A, exceeding the start by 23.6% – signals expanded/running flat; C=161.8% of A [Retracement 123.6%]"
+27,Expanded Flat – 138.2% B Wave,EXP-FLAT-138,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,106.9,77.8,—,—,-22.2,B=138.2% of A; common expanded-flat B-wave target; C=161.8% of A [Retracement 138.2%]
+28,Expanded Flat – Strong 161.8% B Wave,EXP-FLAT-162,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,111.1,64.0,—,—,-36.0,B=161.8% of A – strong expanded flat with directional bias signal; C=261.8% of A [Retracement 161.8%]
+29,Impulse – Short Wave 5 (61.8%),IMP-W5-618,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,238.2,+138.2,W5=61.8% of W1 (minimum W5 target); W5 stalls at the W3 high; W3 in W1-extended impulses also uses 61.8% [Extension 61.8%]
+30,Zigzag – C Equals A (100%),ZZ-CA-100,Corrective,5-3-5,Bearish,Start / A / B / C,100.0,61.8,85.4,47.2,—,—,-52.8,Wave equality: C=100% of A (also W5=W1 in impulses); B retraces 61.8% of A; canonical Zigzag (#8) [Extension 100.0%]
+31,Regular Flat – 123.6% C Wave,R-FLAT-124C,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,99.0,76.8,—,—,-23.2,C extends to 123.6% of A; common regular-flat C target; B retraces ~94% of A [Extension 123.6%]
+32,Regular Flat – 138.2% C Wave,R-FLAT-138C,Corrective,3-3-5,Bearish,Start / A / B / C,100.0,82.0,99.0,74.1,—,—,-25.9,C=138.2% of A; common regular/expanded flat C target; canonical Regular Flat (#11) [Extension 138.2%]
+33,Impulse – Canonical 161.8% Wave 3,IMP-W3-162,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,261.8,+161.8,W3=161.8% of W1 – the most common W3 extension (also C=161.8% of A in expanded flats); matches Classic Impulse (#1) [Extension 161.8%]
+34,Impulse – Wave 3 = 200%,IMP-W3-200,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,261.8,214.6,276.4,+176.4,"W3=200% of W1; strong trending impulse, common in crypto/commodities; W4=38.2% of W3; W5=W1 [Extension 200.0%]"
+35,Impulse – Wave 3 = 261.8%,IMP-W3-262,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,300.0,238.2,300.0,+200.0,W3=261.8% of W1 (=phi squared); strongly extended third wave; W4=38.2% of W3; W5=W1 tests the W3 high; cf. #3 with shallow 23.6% W4 [Extension 261.8%]
+36,Impulse – Extreme Wave 3 (300%),IMP-W3-300,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,323.6,252.8,314.6,+214.6,W3=300% of W1; extreme/parabolic extension (rare); W4=38.2% of W3; W5=W1 with truncation risk after extreme W3 [Extension 300.0%]
+37,Impulse – Climax Wave 5 (423.6%),IMP-W5-424,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,161.8,138.2,238.2,200.0,461.8,+361.8,W5=423.6% of W1 (=phi cubed); rare parabolic climax move; W2=38.2%; W3=161.8% of W1 [Extension 423.6%]
+38,Leading Diagonal – W3 = 61.8% of W1,LD-618,Motive,5-3-5-3-5,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,175.0,146.3,192.7,164.0,200.5,+100.5,Contracting diagonal: W3=61.8% of W1; W5=78.6% of W3 so W5<W3; W4 overlaps W1 territory (below 175) [Diagonal 61.8%]
+39,Ending Diagonal – W5 = 78.6% of W3,ED-786,Motive,3-3-3-3-3,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,172.0,144.5,201.1,166.1,210.6,+110.6,Each impulse leg = 78.6% of the prior (W3=78.6% of W1; W5=78.6% of W3); converging structure maintained [Diagonal 78.6%]
+40,Expanding Diagonal – Waves > 100%,ED-EXP-100,Motive,3-3-3-3-3,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,150.0,119.1,180.9,142.7,219.1,+119.1,Each wave = 123.6% of the prior same-direction wave (>100% expansion rule); expanding wedge [Diagonal 100.0%]
+41,Expanding Ending Diagonal – W3 = 161.8%,ED-EXP-162,Motive,3-3-3-3-3,Bullish,0 / 1 / 2 / 3 / 4 / 5,100.0,150.0,119.1,200.0,150.0,250.0,+150.0,W3=161.8% of W1 in an expanding ending diagonal; W4 retests the W1 high; W5=123.6% of W3 [Diagonal 161.8%]
+42,Double Zigzag – Shallow 38.2% X,DZZ-X-382,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,79.6,46.6,—,—,-53.4,X retraces 38.2% of W (shallow connector); pattern continues lower; Y=W [X-Wave 38.2%]
+43,Double Zigzag – Typical 50% X,DZZ-X-50,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,83.5,50.5,—,—,-49.5,X retraces 50% of W – the most common X-wave retracement; Y=W; canonical Double Zigzag (#9) [X-Wave 50.0%]
+44,Double Zigzag – Deep 61.8% X,DZZ-X-618,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,87.4,54.4,—,—,-45.6,X retraces 61.8% of W – deepest normal X-wave; Y=W [X-Wave 61.8%]
+45,Double Zigzag – Very Deep 76.4% X,DZZ-X-764,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,92.2,59.2,—,—,-40.8,X retraces 76.4% of W; signals a running or combination correction; Y=W [X-Wave 76.4%]
+46,Complex Correction – 100% X Ceiling,DZZ-X-100,Corrective,ZZ-X-ZZ,Bearish,Start / W / X / Y,100.0,67.0,100.0,67.0,—,—,-33.0,X >= 100% of W returns to the start – ceiling that signals the complex pattern is likely complete (rare); Y=W [X-Wave 100.0%]
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

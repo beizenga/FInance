@@ -4,3 +4,28 @@ BMO,Bank of Montreal,Common Shares,,USD,Equities
 CCO, Cameco Corporation, Common Shares,.TO,CAD,Equities
 DOL,Dolllorama Inc,Common Shares,.TO,CAD,Equities
 LRCX, LAM Research Corporation, Common Shares,,USD, Equities
+CNQ, Canadian Natural Reources, Common Shares,.TO,CAD, Equities
+CNQ, Canadian Natural Reources, Common Shares,,USD, Equities
+CL,Crude Oil August 2026,Futures Contract,=F,USD, Equities
+CADUSD, CAD DOllar,CAD Dollar Spot,=X,USD,Currency
+JPM, JPMorgan Chase & Co., Common Shares,,USD, Equities
+MSFT, Microsoft Corporation, Common Shares,,USD, Equities
+RY,Royal Bank of Canada, Common Shares,.TO,CAD, Equities
+NVDA,NVIDIA Corporation, Common Shares,,USD, Equities
+LULU,Lululemon Athletica Inc, Common Shares,,USD, Equities
+USDCAD, US Dollar,Currency Spot,=X,USD,Currency
+CTR,Canadian Tire Corporation, Common Shares,.TO,CAD, Equities
+TD, Toronto-Dominion Bank, Common Shares,.TO,CAD, Equities
+TSX, S&P/TSX Composite Index, Index,.TO,CAD, Equities
+SPY, SPDR S&P 500 ETF Trust, ETF,,USD, Equities
+EFA, iShares MSCI EAFE ETF, ETF,,USD, Equities
+TSX60, S&P/TSX 60 Index, Index,.TO,CAD, Equities
+BRENT, Crude Oil August 2026,Futures Contract,=F,USD, Equities
+GOLD, Gold August 2026,Futures Contract,=F,USD, Equities
+NG, Natural Gas August 2026,Futures Contract,=F,USD, Equities
+WHEAT, Wheat August 2026,Futures Contract,=F,USD, Equities
+CORN, Corn August 2026,Futures Contract,=F,USD, Equities
+BEANS, Soybeans August 2026,Futures Contract,=F,USD, Equities
+
+
+
