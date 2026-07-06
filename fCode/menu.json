@@ -1,32 +1,56 @@
 {
   "menus": [
     {
-      "label": "File",
+      "label": "Data",
       "items": [
-        {"label": "Open Tickers CSV", "action": "open_path", "args": {"setting_key": "tickers_csv"}},
-        {"label": "Open Pattern Workbook", "action": "open_path", "args": {"setting_key": "pattern_workbook"}},
+        {"label": "Tickers", "action": "open_path", "args": {"setting_key": "tickers_csv"}},
+        {"label": "Portfolios", "action": "open_path", "args": {"setting_key": "pattern_workbook"}},
+        {"label": "Transactions", "action": "open_path", "args": {"setting_key": "tickers_csv"}},
+        {"label": "Elliott Waves", "action": "open_path", "args": {"setting_key": "tickers_csv"}},
+        {"label": "User Settings", "action": "open_path", "args": {"setting_key": "pattern_workbook"}},
         {"type": "separator"},
         {"label": "Exit", "action": "exit_app"}
       ]
     },
+
     {
-      "label": "Analysis",
+      "label": "Reports",
       "items": [
-        {"label": "Run Ticker Summary", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
-        {"label": "Run EW Pattern Matcher", "action": "run_script", "args": {"setting_key": "ew_matcher_script"}},
-        {
-          "label": "Reports",
-          "items": [
-            {"label": "Open Output Folder", "action": "open_path", "args": {"setting_key": "output_dir"}},
-            {"label": "Latest PDF Report", "action": "open_path", "args": {"setting_key": "latest_report"}}
-          ]
-        }
+        {"label": "Ticker Summary", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}}
       ]
     },
+
+    {
+      "label": "Financials",
+      "items": [
+        {"label": "Balance Sheet", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
+        {"label": "Income Statement", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
+        {"label": "Cash Flow", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
+        {"label": "Ratios", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}}
+      ]
+    },
+
+    {
+      "label": "Technicals",
+      "items": [
+        {"label": "Elliott Wave", "action": "run_script", "args": {"setting_key": "ew_matcher_script"}}
+      ]
+    },
+
+    {
+      "label": "Portfolios",
+      "items": [
+        {"label": "Portfolios", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}},
+        {"label": "Transactions", "action": "run_script", "args": {"setting_key": "ticker_summary_script"}}
+      ]
+    },
+
+
     {
       "label": "Help",
       "items": [
-        {"label": "About", "action": "show_about"}
+        {"label": "About", "action": "show_about"},
+        {"label": "Author", "action": "show_author"}
       ]
     }
   ]

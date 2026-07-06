@@ -53,6 +53,7 @@ class App:
             "open_path": self.open_path,
             "run_script": self.run_script,
             "show_about": self.show_about,
+            "show_author": self.show_author,
             "exit_app": self.root.quit,
         }
 
@@ -133,6 +134,7 @@ class App:
         python_exe = self.settings.get("python_exe", sys.executable)
         subprocess.Popen([python_exe, script],
                          cwd=os.path.dirname(script) or ".")
+
         self.status.set(f"Launched {os.path.basename(script)}")
 
     def show_about(self):
@@ -141,15 +143,22 @@ class App:
             f"{self.settings.get('app_title', 'App')}\n"
             "Menu structure: menu.json\n"
             "Preferences: settings.csv")
+        
+    def show_author(self):
+        messagebox.showinfo(
+            "Author",
+             f"{self.settings.get('app_title', 'App')}\n"
+            "Created by: Bradley  Eizenga\n"
+            "As at: July 2026")    
 
     def run(self):
         self.root.mainloop()
-
 
 # ---------------------------------------------------------------- entry point
 
 def main():
     settings_path = os.path.join(BASE_DIR, "settings.csv")
+    print(settings_path)
     settings = load_settings(settings_path)
     menu_path = settings.get("menu_file", "menu.json")
     if not os.path.isabs(menu_path):
