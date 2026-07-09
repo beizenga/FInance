@@ -3,8 +3,11 @@ import yfinance as yf
 from pathlib import Path
 from datetime import date
 
-TICKERS_FILE = Path("tickers.csv")
-PRICES_FILE = Path("prices.csv")
+from settings_paths import load_settings, resolve_data_path
+
+SETTINGS = load_settings()
+TICKERS_FILE = resolve_data_path("tickers.csv", SETTINGS)
+PRICES_FILE = resolve_data_path("prices.csv", SETTINGS)
 START_DATE = "2023-01-01"
 END_DATE = date.today().isoformat()   # yfinance end date is exclusive; script adds 1 day below
 

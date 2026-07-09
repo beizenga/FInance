@@ -3,6 +3,7 @@ app_title, BWE Finance
 window_width,900
 window_height,600
 menu_file,menu.json
+data_dir,C:\Dev\Python\FInance\Data
 tickers_csv,C:\Dev\Python\Finance\tickers.csv
 pattern_workbook,C:\Dev\Python\Finance\elliott-wave-patterns.xlsx
 ticker_summary_script,C:\Dev\Python\Finance\ticker_summary.py

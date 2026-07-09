@@ -7,7 +7,6 @@ The window and menubar are constructed at runtime; nothing is hardcoded
 except the action handlers, which menu items reference by name.
 """
 
-import csv
 import json
 import os
 import subprocess
@@ -15,20 +14,16 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 
+from settings_paths import get_data_dir, load_settings as load_settings_file
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 # ---------------------------------------------------------------- settings
 
-def load_settings(path):
+def load_settings(path=None):
     """Read flat key,value CSV into a dict of strings."""
-    settings = {}
-    with open(path, newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            key = (row.get("key") or "").strip()
-            if key:
-                settings[key] = (row.get("value") or "").strip()
-    return settings
+    return load_settings_file(path)
 
 
 def load_menu(path):
@@ -157,12 +152,12 @@ class App:
 # ---------------------------------------------------------------- entry point
 
 def main():
-    settings_path = os.path.join(BASE_DIR, "settings.csv")
+    settings_path = os.path.join(os.path.dirname(BASE_DIR), "Data", "settings.csv")
     print(settings_path)
     settings = load_settings(settings_path)
     menu_path = settings.get("menu_file", "menu.json")
     if not os.path.isabs(menu_path):
-        menu_path = os.path.join(BASE_DIR, menu_path)
+        menu_path = os.path.join(get_data_dir(settings), menu_path)
     menu_def = load_menu(menu_path)
     App(settings, menu_def).run()
 

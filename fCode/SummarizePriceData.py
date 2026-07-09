@@ -15,9 +15,11 @@ from datetime import datetime, timedelta
 import pandas as pd
 import yfinance as yf
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(SCRIPT_DIR, "tickers.csv")
-OUT_PATH = os.path.join(SCRIPT_DIR, "ticker_summary.csv")
+from settings_paths import load_settings, resolve_data_path
+
+SETTINGS = load_settings()
+CSV_PATH = resolve_data_path("tickers.csv", SETTINGS)
+OUT_PATH = resolve_data_path("ticker_summary.csv", SETTINGS)
 
 
 def load_tickers(csv_path: str) -> list[str]:

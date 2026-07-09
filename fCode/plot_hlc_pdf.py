@@ -29,10 +29,13 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.backends.backend_pdf import PdfPages
 
+from settings_paths import load_settings, resolve_data_path
 
-PRICES_FILE = "prices.csv"
-TICKERS_FILE = "tickers.csv"
-OUTPUT_PDF = "hlc_charts.pdf"
+
+SETTINGS = load_settings()
+PRICES_FILE = resolve_data_path("prices.csv", SETTINGS)
+TICKERS_FILE = resolve_data_path("tickers.csv", SETTINGS)
+OUTPUT_PDF = resolve_data_path("hlc_charts.pdf", SETTINGS)
 
 REQUIRED_PRICE_COLUMNS = {"Date", "Symbol", "Open", "High", "Low", "Close"}
 REQUIRED_TICKER_COLUMNS = {"Ticker", "CompanyName", "Market"}

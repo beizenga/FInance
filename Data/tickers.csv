@@ -26,6 +26,23 @@ NG, Natural Gas August 2026,Futures Contract,=F,USD, Equities
 WHEAT, Wheat August 2026,Futures Contract,=F,USD, Equities
 CORN, Corn August 2026,Futures Contract,=F,USD, Equities
 BEANS, Soybeans August 2026,Futures Contract,=F,USD, Equities
+IBM, International Business Machines Corporation, Common Shares,,USD, Equities
+CNR, Canadian National Railway Company, Common Shares,.TO,CAD, Equities
+CNR, Canadian National Railway Company, Common Shares,,USD, Equities
+NTR, Nutrien Ltd, Common Shares,.TO,CAD, Equities
+NTR, Nutrien Ltd, Common Shares,,USD, Equities
+RY,Royal Bank of Canada, Common Shares,,USD, Equities
+TRP, TransCanada Corporation, Common Shares,.TO,CAD, Equities
+TRP, TransCanada Corporation, Common Shares,,USD, Equities
+T, Telus Corporation, Common Shares,,USD, Equities
+T, Telus Corporation, Common Shares,.TO,CAD, Equities
+VE, Vanguard FTSE Emerging Markets ETF, ETF,,USD, Equities
+VE, Vanguard FTSE Emerging Markets ETF, ETF,.TO,CAD, Equities
+ZDM, BMO MSCI Emerging Markets Index ETF, ETF,.TO,CAD, Equities
+ABT, Abbott Laboratories, Common Shares,,USD, Equities
+GOOGL, Alphabet Inc., Common Shares,,USD, Equities
+AMZN, Amazon.com Inc., Common Shares,,USD, Equities
+BALL, Ball Corporation, Common Shares,,USD, Equities
 
 
 

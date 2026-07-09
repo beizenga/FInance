@@ -26,7 +26,9 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+from settings_paths import load_settings, resolve_data_path
+
+SETTINGS = load_settings()
 ROWS_PER_PAGE = 40
 ERR_LINES_PER_PAGE = 55
 
@@ -246,8 +248,8 @@ def _write_pdf(summary, errors, pdf_path, generated_str):
 
 def summarize(csv_path=None, pdf_path=None):
     """Single-call entry point: read tickers, fetch data, write PDF."""
-    csv_path = csv_path or os.path.join(SCRIPT_DIR, "tickers.csv")
-    pdf_path = pdf_path or os.path.join(SCRIPT_DIR, "ticker_summary.pdf")
+    csv_path = resolve_data_path(csv_path or "tickers.csv", SETTINGS)
+    pdf_path = resolve_data_path(pdf_path or "ticker_summary.pdf", SETTINGS)
 
     errors = []
     tickers, csv_attrs = _load_csv(csv_path, errors)
